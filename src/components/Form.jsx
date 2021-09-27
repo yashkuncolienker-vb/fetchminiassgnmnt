@@ -26,7 +26,7 @@ const Form = () => {
       <form onSubmit={handleSubmit}>
         <label>
           UserId:
-          <input onChange={handleChange} name="userId" type="number" />
+          <input onChange={handleChange} min="1" name="userId" type="number" />
         </label>
         <br />
         <label>
